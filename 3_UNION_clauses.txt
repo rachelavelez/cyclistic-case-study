@@ -1,0 +1,101 @@
+## Ran below UNION clauses to create 1 table.
+
+SELECT 
+member_casual, rideable_type, started_at, ended_at, start_station_name, start_station_id, start_lat, start_lng, end_station_id, end_station_name, end_lat, end_lng
+
+FROM `capstone-project-379202.2022_ride_data.dec2022`
+
+UNION ALL
+
+SELECT member_casual, rideable_type, started_at, ended_at, start_station_name, start_station_id, start_lat, start_lng, end_station_id, end_station_name, end_lat, end_lng 
+FROM `capstone-project-379202.2022_ride_data.jan2022`
+
+UNION ALL
+
+SELECT member_casual, rideable_type, started_at, ended_at, start_station_name, start_station_id, start_lat, start_lng, end_station_id, end_station_name, end_lat, end_lng 
+FROM `capstone-project-379202.2022_ride_data.feb2022`
+
+
+UNION ALL
+
+SELECT member_casual, rideable_type, started_at, ended_at, start_station_name, start_station_id, start_lat, start_lng, end_station_id, end_station_name, end_lat, end_lng 
+FROM `capstone-project-379202.2022_ride_data.mar2022`
+
+UNION ALL
+
+SELECT member_casual, rideable_type, started_at, ended_at, start_station_name, start_station_id, start_lat, start_lng, end_station_id, end_station_name, end_lat, end_lng 
+FROM `capstone-project-379202.2022_ride_data.apr2022`
+
+
+UNION ALL
+
+SELECT member_casual, rideable_type, started_at, ended_at, start_station_name, start_station_id, start_lat, start_lng, end_station_id, end_station_name, end_lat, end_lng 
+FROM `capstone-project-379202.2022_ride_data.may2022-1`
+
+
+UNION ALL
+
+SELECT member_casual, rideable_type, started_at, ended_at, start_station_name, start_station_id, start_lat, start_lng, end_station_id, end_station_name, end_lat, end_lng 
+FROM `capstone-project-379202.2022_ride_data.may2022-2`
+
+UNION ALL
+
+SELECT member_casual, rideable_type, started_at, ended_at, start_station_name, start_station_id, start_lat, start_lng, end_station_id, end_station_name, end_lat, end_lng 
+FROM `capstone-project-379202.2022_ride_data.jun2022-1`
+
+
+UNION ALL
+
+SELECT member_casual, rideable_type, started_at, ended_at, start_station_name, start_station_id, start_lat, start_lng, end_station_id, end_station_name, end_lat, end_lng 
+FROM `capstone-project-379202.2022_ride_data.jun2022-2`
+
+UNION ALL
+
+SELECT member_casual, rideable_type, started_at, ended_at, start_station_name, start_station_id, start_lat, start_lng, end_station_id, end_station_name, end_lat, end_lng
+FROM `capstone-project-379202.2022_ride_data.jul2022-1`
+
+
+UNION ALL
+
+SELECT member_casual, rideable_type, started_at, ended_at, start_station_name, start_station_id, start_lat, start_lng, end_station_id, end_station_name, end_lat, end_lng 
+FROM `capstone-project-379202.2022_ride_data.jul2022-2`
+
+UNION ALL
+
+SELECT member_casual, rideable_type, started_at, ended_at, start_station_name, start_station_id, start_lat, start_lng, end_station_id, end_station_name, end_lat, end_lng 
+FROM `capstone-project-379202.2022_ride_data.aug2022-1`
+
+UNION ALL
+
+SELECT member_casual, rideable_type, started_at, ended_at, start_station_name, start_station_id, start_lat, start_lng, end_station_id, end_station_name, end_lat, end_lng 
+FROM `capstone-project-379202.2022_ride_data.aug2022-2`
+
+UNION ALL
+
+SELECT member_casual, rideable_type, started_at, ended_at, start_station_name, start_station_id, start_lat, start_lng, end_station_id, end_station_name, end_lat, end_lng 
+FROM `capstone-project-379202.2022_ride_data.sep2022-1`
+
+
+UNION ALL
+
+SELECT member_casual, rideable_type, started_at, ended_at, start_station_name, start_station_id, start_lat, start_lng, end_station_id, end_station_name, end_lat, end_lng 
+FROM `capstone-project-379202.2022_ride_data.sep2022-2`
+
+UNION ALL
+
+SELECT member_casual, rideable_type, started_at, ended_at, start_station_name, start_station_id, start_lat, start_lng, end_station_id, end_station_name, end_lat, end_lng 
+FROM `capstone-project-379202.2022_ride_data.oct2022-1`
+
+
+UNION ALL
+
+SELECT member_casual, rideable_type, started_at, ended_at, start_station_name, start_station_id, start_lat, start_lng, end_station_id, end_station_name, end_lat, end_lng 
+FROM `capstone-project-379202.2022_ride_data.oct2022-2`
+
+UNION ALL
+
+SELECT member_casual, rideable_type, started_at, ended_at, start_station_name, start_station_id, start_lat, start_lng, end_station_id, end_station_name, end_lat, end_lng 
+FROM `capstone-project-379202.2022_ride_data.nov2022`
+
+ORDER BY
+started_at

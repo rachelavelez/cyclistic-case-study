@@ -1,0 +1,10 @@
+## Compared these three data sets below, and confirmed values were unique between them. Proceeded with confidence that ride_id column could be dropped.
+
+SELECT DISTINCT *
+FROM 'capstone-project-379202.2022_ride_data.jan2022`
+
+SELECT DISTINCT *
+FROM 'capstone-project-379202.2022_ride_data.april2022`
+
+SELECT DISTINCT *
+FROM 'capstone-project-379202.2022_ride_data.aug2022-1-1`

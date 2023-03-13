@@ -1,0 +1,44 @@
+## Ran this query to do a quick summarized view of all columns between spreadsheets, and confirmed all column names matched, so should be no issue with running UNION clauses.
+
+SELECT
+  *
+ FROM
+  `capstone-project-379202.2022_ride_data`.INFORMATION_SCHEMA.COLUMN_FIELD_PATHS
+ WHERE
+  table_name = "jan2022"
+  OR
+  table_name = "feb2022"
+  OR
+  table_name = "mar2022"
+  OR
+  table_name = "apr2022"
+  OR
+  table_name = "may2022-1"
+  OR
+  table_name = "may2022-2"
+  OR
+  table_name = "jun2022-1"
+  OR
+  table_name = "jun2022-2"
+  OR
+  table_name = "jul2022-1"
+  OR
+  table_name = "jul2022-2"
+  OR
+  table_name = "aug2022-1-1"
+  OR
+  table_name = "aug2022-2"
+  OR
+  table_name = "sep2022-1"
+  OR
+  table_name = "sep2022-2"
+  OR
+  table_name = "oct2022-1"
+  OR
+  table_name = "oct2022-2"
+  OR
+  table_name = "nov2022"
+  OR
+  table_name = "dec2022"
+  
+  ORDER BY table_name

@@ -1,0 +1,11 @@
+## Rideable Type filters in SQL prior to export. 
+
+SELECT *
+FROM `capstone-project-379202.2022_ride_data.combined-data` 
+WHERE rideable_type = "docked_bike"
+
+
+SELECT *
+FROM `capstone-project-379202.2022_ride_data.combined-data` 
+WHERE rideable_type = "electric_bike" OR
+rideable_type = "classic_bike"
