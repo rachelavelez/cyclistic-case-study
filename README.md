@@ -11,5 +11,5 @@ I first cleaned the data in BigQuery via a few SQL queries. The queries have bee
 4_filter.txt : query used to filter docked_bikes from the final table results  
 
 
-A detailed review of this capstone project, task, and deliverables can be found on my website:
-sites.google.com/view/rachelavelez-portfolio
+*A detailed review of this capstone project, task, and deliverables can be found on my website:*
+https://sites.google.com/view/rachelavelez-portfolio
